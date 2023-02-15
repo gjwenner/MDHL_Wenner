@@ -19,6 +19,7 @@ header{
 .titulo{
     font-family: monospace;
     font-size: 3rem;
+    margin-left: 1rem;
     
 }
 
@@ -82,8 +83,7 @@ main{
 
 .col4{
     min-height: 12vh;
-    text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 div img{
@@ -91,9 +91,13 @@ div img{
     height: 100%;
 } 
 
-#parrafo1, #parrafo2, #parrafo3 {
-    font-size: 0.8em;
+dt{
+    font-weight: bold;
+    margin-top: 0.5rem;
 }
+.dentro {
+    margin-left: 1rem;
+} 
 
 table{
     width: 70%;

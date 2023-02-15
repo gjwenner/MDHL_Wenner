@@ -7,6 +7,7 @@
 
 body{
     padding: 5px;
+    background-color: rgb(220, 227, 235);
 }
 header{
     height: 30vh;
@@ -98,4 +99,13 @@ table{
     width: 70%;
     margin-top: 15px;
     margin-left: 30px;
+}
+
+table caption{
+    font-size: 2rem;
+}
+
+.pietabla{
+    font-size: 1.5rem;
+    margin-top: 2%;    
 }

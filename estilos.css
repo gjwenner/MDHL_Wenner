@@ -13,14 +13,16 @@ header{
     height: 30vh;
     background-image: url("./imagenes/design1_image1.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 30vh;
+    background-size: 50% 30vh;
+    background-position: right;
     }
 
 .titulo{
     font-family: monospace;
     font-size: 3rem;
     margin-left: 1rem;
-    
+  
+
 }
 
 h2, h4{
@@ -30,10 +32,8 @@ h2, h4{
 }
 
 .icono{
-     position: absolute;
-     top: 150px; 
-     left: 1000px;
-     
+    width: 15%;
+    height: 15%;
 }
 
 main{

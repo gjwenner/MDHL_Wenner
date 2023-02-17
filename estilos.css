@@ -12,6 +12,7 @@ body{
 header{
     height: 30vh;
     background-color: rgb(195, 208, 217);
+    border: 1px solid gray;
    }
 
 #banner{
@@ -48,8 +49,8 @@ h2, h4{
 }
 
 .icono{
-    width: 15%;
-    height: 15%;
+    width: 12%;
+    height: 12%;
     margin-left: 15%;
 }
 
@@ -63,11 +64,14 @@ main{
 
 .col-flex1{
     width: 16%;
-    background-color: blanchedalmond;
+    background-color: rgb(195, 208, 217);
+    border: 1px solid gray;
    }
 
 .col-flex2{
     width: 84%;
+    background-image: url(./imagenes/fondo_cuerpo.jpeg);
+    border: 1px solid gray;
 }
 
 .col-flex3{
@@ -76,10 +80,13 @@ main{
 
 .col-flex4{
     width: 84%;
+    background-image: url(./imagenes/fondo_cuerpo.jpeg);
+    border: 1px solid gray;
+    
 }
 .col1{
   
-   min-height: 12vh;
+   min-height: 11vh;
    font-size: 1.5em;
    font-variant: small-caps;
    padding-left: 5%;
@@ -87,7 +94,6 @@ main{
 }
 
 .col2{
-    
     min-height: 12vh;
     text-align: center;
     font-size: 1.5em;
@@ -102,6 +108,7 @@ main{
 .col4{
     min-height: 12vh;
     font-size: 1rem;
+    padding-left: 0.5rem;
 }
 
 div img{
@@ -119,8 +126,8 @@ dt{
 
 table{
     width: 70%;
-    margin-top: 15px;
-    margin-left: 30px;
+    margin-top: 0.5rem;
+    margin-left: 11rem;
 }
 
 table caption{
@@ -129,7 +136,8 @@ table caption{
 
 .pietabla{
     font-size: 1.5rem;
-    margin-top: 2%;    
+    margin-top: 2%;
+    margin-left: 15rem;    
 }
 
 .cont-inputs{
@@ -151,4 +159,15 @@ input{
 
 .todo{
     width: 100%;
+}
+
+.justificado{
+    text-align: left;
+    font-size: medium;
+}
+
+#button{
+    width: 90%;
+    font-size: larger;
+
 }

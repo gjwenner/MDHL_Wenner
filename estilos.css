@@ -7,22 +7,38 @@
 
 body{
     padding: 5px;
-    background-color: rgb(220, 227, 235);
+    
 }
 header{
     height: 30vh;
-    background-image: url("./imagenes/design1_image1.jpg");
-    background-repeat: no-repeat;
-    background-size: 50% 30vh;
-    background-position: right;
+    background-color: rgb(195, 208, 217);
+   }
+
+#banner{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-size: 100% 100%;
+    animation: banner 10s infinite;
+}
+@keyframes banner {
+        0%, 21% {
+            background-image: url("./imagenes/design1_image1.jpg");
+        }
+        26%, 46% {
+            background-image: url("./imagenes/hockey_1.jpg");
+          }
+        51%, 71% {
+            background-image: url("./imagenes/hockey_2.jpg");
+          }  
+        76%, 100% {
+            background-image: url("./imagenes/hockey_3.jpg"); 
     }
 
+}
 .titulo{
     font-family: monospace;
-    font-size: 3rem;
-    margin-left: 1rem;
-  
-
+    font-size: 2.5rem;
 }
 
 h2, h4{
@@ -34,6 +50,7 @@ h2, h4{
 .icono{
     width: 15%;
     height: 15%;
+    margin-left: 15%;
 }
 
 main{
@@ -46,10 +63,11 @@ main{
 
 .col-flex1{
     width: 16%;
-}
+    background-color: blanchedalmond;
+   }
 
 .col-flex2{
-    width: 50.6666%;
+    width: 84%;
 }
 
 .col-flex3{
@@ -112,4 +130,25 @@ table caption{
 .pietabla{
     font-size: 1.5rem;
     margin-top: 2%;    
+}
+
+.cont-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    font-size: 0.8em;
+    margin-top: 0.3em;
+    border-radius: 3px;
+    border: 1px solid darkgrey;
+}
+
+.jota{
+    width: 48%;   
+}
+
+.todo{
+    width: 100%;
 }

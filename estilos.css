@@ -171,3 +171,9 @@ input{
     font-size: larger;
 
 }
+
+.map-contenedor{
+    display: inline-flex;
+    width: 10%;
+    height: 30%;
+}
